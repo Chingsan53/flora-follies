@@ -1,9 +1,12 @@
 import "./Homepage.css";
+import { useFlowerData } from "./FlowerDataContext";
 import { useState } from "react";
 import Modal from "./Detail";
 const Homepage = () => {
   const [activeFlower, setActiveFlower] = useState(null);
   const popupStyle = activeFlower ? { display: "block" } : { display: "none" };
+  const { addFlower } = useFlowerData();
+
   const flowers = [
     {
       id: 1,
@@ -614,6 +617,7 @@ const Homepage = () => {
       weather: "",
     },
   ];
+
   return (
     <div className="articles">
       {flowers.map((item) => (
@@ -662,7 +666,9 @@ const Homepage = () => {
             <div
               dangerouslySetInnerHTML={{ __html: activeFlower.howToPlant }}
             />
-            <div className="button-1">Start planting now</div>
+            <div className="button-1" onClick={() => addFlower(activeFlower)}>
+              Start planting now
+            </div>
           </Modal>
         )}
       </div>

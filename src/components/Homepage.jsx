@@ -1,13 +1,9 @@
 import "./Homepage.css";
-import { Link } from "react-router-dom";
-import Detail from "./Detail";
 import { useState } from "react";
 import Modal from "./Detail";
 const Homepage = () => {
   const [activeFlower, setActiveFlower] = useState(null);
   const popupStyle = activeFlower ? { display: "block" } : { display: "none" };
-  const [showModal, setShowModal] = useState(false);
-  const [openModalId, setOpenModalId] = useState(null);
   const flowers = [
     {
       id: 1,
@@ -559,9 +555,6 @@ const Homepage = () => {
       weather: "",
     },
   ];
-  const openModal = (id) => setOpenModalId(id);
-  const closeModal = () => setOpenModalId(null);
-
   return (
     <div className="articles">
       {flowers.map((item) => (
@@ -600,7 +593,11 @@ const Homepage = () => {
               dangerouslySetInnerHTML={{ __html: activeFlower.howToPlant }}
             /> */}
             <h2>{activeFlower.name}</h2>
-            <img src={activeFlower.image} className="popup-img" />
+            <img
+              src={activeFlower.image}
+              alt="small-img"
+              className="popup-img"
+            />
             <p>
               <strong>Weather: </strong>
               {activeFlower.weather}

@@ -4,9 +4,12 @@ const Modal = ({ show, onClose, children }) => {
   return (
     <div className="modal">
       <div className="modal-content">
-        <span className="close-button" onClick={onClose}>
-          &times;
-        </span>
+        <div className="modal-inner">{children}</div>
+        <div className="modal-outer">
+          <span className="close-button" onClick={onClose}>
+            &times;
+          </span>
+        </div>
       </div>
     </div>
   );

@@ -2,14 +2,12 @@ import "./Homepage.css";
 import { Link } from "react-router-dom";
 import Detail from "./Detail";
 import { useState } from "react";
+import Modal from "./Detail";
 const Homepage = () => {
+  const [activeFlower, setActiveFlower] = useState(null);
+  const popupStyle = activeFlower ? { display: "block" } : { display: "none" };
   const [showModal, setShowModal] = useState(false);
-  const openModal = () => {
-    setShowModal(true);
-  };
-  const closeModal = () => {
-    setShowModal(false);
-  };
+  const [openModalId, setOpenModalId] = useState(null);
   const flowers = [
     {
       id: 1,
@@ -561,6 +559,8 @@ const Homepage = () => {
       weather: "",
     },
   ];
+  const openModal = (id) => setOpenModalId(id);
+  const closeModal = () => setOpenModalId(null);
 
   return (
     <div className="articles">
@@ -576,13 +576,43 @@ const Homepage = () => {
                 <strong>{item.name}, </strong>
                 {item.summary}
               </p>
-              <Link to={"/planting"} style={{ textDecoration: "none" }}>
-                <button className="button-1">Plant Now</button>
-              </Link>
+
+              <div
+                className="button-1"
+                onClick={() => {
+                  console.log("opening flower info: ", item.name);
+                  setActiveFlower(item);
+                }}
+              >
+                Plant Now
+              </div>
             </div>
           </div>
         </article>
       ))}
+      <div className="popup" style={popupStyle}>
+        {activeFlower && (
+          <Modal
+            show={Boolean(activeFlower)}
+            onClose={() => setActiveFlower(null)}
+          >
+            {/* <div
+              dangerouslySetInnerHTML={{ __html: activeFlower.howToPlant }}
+            /> */}
+            <h2>{activeFlower.name}</h2>
+            <img src={activeFlower.image} className="popup-img" />
+            <p>
+              <strong>Weather: </strong>
+              {activeFlower.weather}
+            </p>
+            <h3>How to Plant:</h3>
+            <div
+              dangerouslySetInnerHTML={{ __html: activeFlower.howToPlant }}
+            />
+            <div className="button-1">Start planting now</div>
+          </Modal>
+        )}
+      </div>
     </div>
   );
 };

@@ -589,9 +589,6 @@ const Homepage = () => {
             show={Boolean(activeFlower)}
             onClose={() => setActiveFlower(null)}
           >
-            {/* <div
-              dangerouslySetInnerHTML={{ __html: activeFlower.howToPlant }}
-            /> */}
             <h2>{activeFlower.name}</h2>
             <img
               src={activeFlower.image}

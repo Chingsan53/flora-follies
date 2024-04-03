@@ -7,6 +7,10 @@ const Homepage = () => {
   const popupStyle = activeFlower ? { display: "block" } : { display: "none" };
   const { addFlower } = useFlowerData();
 
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   const flowers = [
     {
       id: 1,
@@ -34,6 +38,7 @@ const Homepage = () => {
         "Prefers moderate climates; not suited for extreme cold or very hot weather",
       howToPlant:
         "<ul><li>Wait until the soil is 60 degrees Fahrenheit or colder. In the North this will be in September or October, in the South in October or November.</li><li>Pick a spot in your garden that has well-draining soil and gets full sun or partial shade.</li><li>Plant the daffodil bulbs about 3-6” deep and 4-5” apart, placing them in the ground with their pointy ends up.</li><li>Water well once and wait for spring</li><li>After the daffodils have bloomed don’t cut off the foliage. Leave it until it’s completely withered and yellow, then remove.</li></ul>",
+      link: "https://www.edenbrothers.com/products/crocus-bulbs-rainbow-mix",
     },
     {
       id: 2,
@@ -652,22 +657,59 @@ const Homepage = () => {
             show={Boolean(activeFlower)}
             onClose={() => setActiveFlower(null)}
           >
-            <h2>{activeFlower.name}</h2>
-            <img
-              src={activeFlower.image}
-              alt="small-img"
-              className="popup-img"
-            />
-            <p>
-              <strong>Weather: </strong>
-              {activeFlower.weather}
-            </p>
-            <h3>How to Plant:</h3>
-            <div
-              dangerouslySetInnerHTML={{ __html: activeFlower.howToPlant }}
-            />
-            <div className="button-1" onClick={() => addFlower(activeFlower)}>
-              Start planting now
+            <div className="main-popup">
+              <div className="title">
+                <h2>{activeFlower.name}</h2>
+              </div>
+              <div className="content">
+                <div className="picture">
+                  <img
+                    src={activeFlower.image}
+                    alt="small-img"
+                    className="popup-img"
+                  />
+                  <p>
+                    <strong>Weather: </strong>
+                    {activeFlower.weather}
+                  </p>
+                  <p>
+                    <strong>Seasonal Tips: </strong>
+                    {activeFlower.seasonalTips}
+                  </p>
+                  <p>
+                    <strong>Trivia: </strong>
+                    {activeFlower.trivia}
+                  </p>
+                </div>
+                <div className="details">
+                  <h3>How to Plant:</h3>
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: activeFlower.howToPlant,
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="button-container">
+                <div
+                  className="button-1"
+                  onClick={() => addFlower(activeFlower)}
+                >
+                  Start planting now
+                </div>
+                <div
+                  className="button-1"
+                  onClick={() => addFlower(activeFlower)}
+                >
+                  Add to Favorite
+                </div>
+                <div
+                  className="button-1"
+                  onClick={() => openInNewTab(activeFlower.link)}
+                >
+                  Buy Seeds
+                </div>
+              </div>
             </div>
           </Modal>
         )}

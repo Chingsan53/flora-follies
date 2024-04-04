@@ -83,7 +83,7 @@ const Garden = () => {
                   <div className="about">
                     <div
                       className="button-1"
-                      onClick={() => setActiveComponent("active")}
+                      onClick={() => setActiveComponent("about")}
                     >
                       About
                     </div>

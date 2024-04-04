@@ -1,0 +1,17 @@
+.note-pad {
+    background-color: #fef68a;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 240px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.note-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

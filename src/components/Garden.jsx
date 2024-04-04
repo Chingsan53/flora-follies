@@ -33,7 +33,7 @@ const Garden = () => {
     <div className="garden">
       <div className="garden-main">
         {selectedFlowers.length === 0 ? (
-          <p>You have not planted any flower yet</p>
+          <h2>You have not planted any flower yet</h2>
         ) : (
           selectedFlowers.map((item) => (
             <div className="garden-container">
@@ -90,7 +90,7 @@ const Garden = () => {
                   </div>
                 </div>
                 <div className="garden-care-content">
-                  <ActiveComponent />
+                  <ActiveComponent flowerData={item} />
                 </div>
               </div>
             </div>

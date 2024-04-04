@@ -4,9 +4,13 @@ const Note = () => {
   return (
     <div className="note-whole">
       <div className="note-title">
-        <div className="button-1">Delete</div>
+        <div className="button-1" style={{ backgroundColor: "#EFBC9B" }}>
+          ❌
+        </div>
         <h3>My note</h3>
-        <div className="button-1">Submit</div>
+        <div className="button-1" style={{ backgroundColor: "#EFBC9B" }}>
+          ✔
+        </div>
       </div>
       <div className="note-pad">
         <span>My note is very interesting</span>

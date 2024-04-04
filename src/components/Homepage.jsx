@@ -20,13 +20,15 @@ const Homepage = () => {
       summary:
         "known for their bright yellow blooms, are a hallmark of spring. These perennial flowers, scientifically named Narcissus, are easy to grow and maintain.  ",
       details: {
-        soilType: "Well-drained, moderately fertile soil",
-        sunExposure: "Full sun to partial shade",
-        wateringNeed:
-          "Regular watering during the growing season, less in dormant period",
-        bloomingPeriod: "Early to mid-spring",
-        plantingInstructions:
-          "Plant bulbs in autumn, about 2-4 inches deep, with the pointed end up, in groups of 5-10 bulbs for a natural look. Space bulbs about 3-6 inches apart.",
+        Watering:
+          "Water daffodils regularly during the spring growing season, especially during dry periods. Avoid overwatering, as this can lead to bulb rot.",
+        Soil: "Prefer well-drained soil. If your soil is heavy clay, amend it with compost or sand to improve drainage.",
+        Fertilizer:
+          "You can fertilize daffodils in early spring with a balanced fertilizer.",
+        WinterCare:
+          "Daffodils are generally cold hardy. In colder climates, you can apply a layer of mulch around the base of the plants in fall to protect the bulbs from freezing temperatures.",
+        PestsDiseases:
+          "Daffodils are relatively pest and disease resistant. However, they can be susceptible to some problems, such as deer browsing and narcissus bulb fly.",
       },
       seasonalTips:
         "Plant bulbs in the fall, about 2 to 4 weeks before the ground freezes. Fertilize in early spring.",
@@ -48,11 +50,15 @@ const Homepage = () => {
       summary:
         "a symbol of cheerful springtime, is one of the first to bloom as winter ends. These small, cup-shaped perennials come in various colors, including purple, white, and yellow.",
       details: {
-        soilType: "Well-drained soil",
-        sunExposure: "Full sun to partial shade",
-        wateringNeed:
-          "Moderate watering, allowing soil to dry slightly between waterings",
-        bloomingPeriod: "Early spring (February - March)",
+        Watering:
+          "Water crocuses regularly during the spring fall when soil feels dry to the touch. Avoid overwatering, as this can lead to corm rot.",
+        Soil: "Crocuses prefer well-drained soil with good organic matter. If your soil is heavy clay, amend it with compost or sand to improve drainage.",
+        Fertilizer:
+          "You can fertilize corocuses in early fall with a balanced fertilizer. Avoid over-fertilizing, as this can reduce flowering.",
+        WinterCare:
+          "Crocuses are generally cold-hardy. In colder climates, you apply a light layer of mulch around the planting area in fall to protect the corms from freezing temperatures.",
+        PestsDiseases:
+          "Crucuses are relatively pest and disease resistant. However, they can be susceptible to some problems, such as rodents and voles digging up the corms.",
       },
       seasonalTips:
         "Plant crocus bulbs in the fall for blooms the following spring. Deadhead spent flowers to encourage more blooms and prevent seed set. Once the foliage has died back, you can cut it back as well.",

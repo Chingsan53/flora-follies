@@ -1,87 +1,85 @@
-
 .garden-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* border: solid 1px; */
-    padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: solid 1px; */
+  padding-top: 30px;
+}
+.garden-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* border: solid 1px; */
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 2px;
+  width: 800px;
+}
+.garden-tracker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* border: solid 1px; */
+  padding: 2px;
+}
+.garden-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: solid 1px; */
+  padding: 2px;
+}
 
-  }
-  .garden-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    /* border: solid 1px; */
-    border-radius: 10px;
-    background-color: #fff;
-    margin: 10px;
-    padding: 2px;
-    width: 700px;
-  }
-  .garden-tracker {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    /* border: solid 1px; */
-    padding: 2px;
-  }
-  .garden-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* border: solid 1px; */
-    padding: 2px;
-  }
-  
-  .garden-tracker {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* border: solid 1px; */
-  }
-  
-  .garden-img {
-    width: 200px;
-  }
-  
-  .garden-care {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* border: solid 1px; */
-    padding: 2px;
-  }
-  
-  .garden-care-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    /* border: solid 1px; */
-    padding: 10px;
-    width: 400px;
-  }
-  
-  .garden-care-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px;
-    border-radius: 10px;
-    background-color: #F1EEDC;
-    padding: 10px;
-    height: 270px;
-    width: 90%;
-  }
-  .logo {
-    width: 200px;
-    padding: 10px;
-  }
-  
+.garden-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: solid 1px; */
+}
+
+.garden-img {
+  width: 200px;
+}
+
+.garden-care {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: solid 1px; */
+  padding: 2px;
+  width: 550px;
+}
+
+.garden-care-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border: solid 1px; */
+  padding: 5px;
+  width: 400px;
+}
+
+.garden-care-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: #f1eedc;
+  padding: 5px;
+  height: 270px;
+  width: 95%;
+}
+.logo {
+  width: 200px;
+  padding: 10px;
+}

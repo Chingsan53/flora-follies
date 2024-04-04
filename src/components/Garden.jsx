@@ -1,8 +1,33 @@
 import "./Garden.css";
 import { useFlowerData } from "./FlowerDataContext";
 import NotesList from "./NotesList";
+import { useState } from "react";
+import CareGuide from "../small-components/CareGuide";
+import Health from "../small-components/Health";
 
+import About from "../small-components/About";
 const Garden = () => {
+  const [activeComponent, setActiveComponent] = useState("care");
+
+  let ActiveComponent;
+
+  switch (activeComponent) {
+    case "care":
+      ActiveComponent = CareGuide;
+      break;
+    case "health":
+      ActiveComponent = Health;
+      break;
+    case "note":
+      ActiveComponent = NotesList;
+      break;
+    case "about":
+      ActiveComponent = About;
+      break;
+    default:
+      ActiveComponent = CareGuide;
+  }
+
   const { selectedFlowers } = useFlowerData();
   return (
     <div className="garden">
@@ -32,20 +57,40 @@ const Garden = () => {
               <div className="garden-care">
                 <div className="garden-care-header">
                   <div className="care-guide">
-                    <div className="button-1">Care</div>
+                    <div
+                      className="button-1"
+                      onClick={() => setActiveComponent("care")}
+                    >
+                      Care
+                    </div>
                   </div>
                   <div className="health">
-                    <div className="button-1">Health</div>
+                    <div
+                      className="button-1"
+                      onClick={() => setActiveComponent("health")}
+                    >
+                      Health
+                    </div>
                   </div>
                   <div className="note">
-                    <div className="button-1">Note</div>
+                    <div
+                      className="button-1"
+                      onClick={() => setActiveComponent("note")}
+                    >
+                      Note
+                    </div>
                   </div>
                   <div className="about">
-                    <div className="button-1">About</div>
+                    <div
+                      className="button-1"
+                      onClick={() => setActiveComponent("active")}
+                    >
+                      About
+                    </div>
                   </div>
                 </div>
                 <div className="garden-care-content">
-                  <NotesList />
+                  <ActiveComponent />
                 </div>
               </div>
             </div>

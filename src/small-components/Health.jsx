@@ -1,3 +1,4 @@
+import "./SmallComponent.css";
 const Health = () => {
   return (
     <div>

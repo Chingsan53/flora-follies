@@ -1,3 +1,4 @@
+import "./SmallComponent.css";
 const CareGuide = () => {
   return (
     <div>

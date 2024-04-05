@@ -22,7 +22,7 @@ const Garden = ({ item }) => {
     removeFlower(item.id);
   };
 
-  //generate the ID
+  //Generate the age of the flower
 
   useEffect(() => {
     const currentDate = new Date();

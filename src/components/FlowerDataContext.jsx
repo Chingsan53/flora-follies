@@ -18,6 +18,7 @@ export const FlowerDataProvider = ({ children }) => {
     setSelectedFlowers((prevFlowers) => [...prevFlowers, flower]);
   };
 
+  //Function to remove the flower data
   const removeFlower = (flowerId) => {
     setSelectedFlowers((prevFlowers) =>
       prevFlowers.filter((flower) => flower.id !== flowerId)

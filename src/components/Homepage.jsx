@@ -833,12 +833,12 @@ const Homepage = () => {
                 >
                   Start planting now
                 </div>
-                <div
+                {/* <div
                   className="button-1"
                   onClick={() => addFlower(activeFlower)}
                 >
                   Add to Favorite
-                </div>
+                </div> */}
                 <div
                   className="button-1"
                   onClick={() => openInNewTab(activeFlower.link)}

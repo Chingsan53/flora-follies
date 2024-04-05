@@ -68,6 +68,17 @@ figure {
   object-fit: cover;
 }
 
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: auto;
+  border-radius: 10px;
+  background-color: #EAD8C0;
+  padding: 10px;
+}
+
 .button-container {
   display: flex;
   flex-direction: row;

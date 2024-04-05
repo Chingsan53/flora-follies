@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import CareGuide from "../small-components/CareGuide";
 import Health from "../small-components/Health";
 import About from "../small-components/About";
+import { useFlowerData } from "./FlowerDataContext";
 
 const Garden = ({ item }) => {
   const [activeComponent, setActiveComponent] = useState("care");
@@ -12,6 +13,14 @@ const Garden = ({ item }) => {
 
   const [daysElapsed, setDaysElapsed] = useState(0);
   const [elapsedTime, setElapsedTime] = useState({ days: 0, hours: 0 });
+
+  //use flowdata for remove the item
+  const { removeFlower } = useFlowerData();
+
+  //handle the remove
+  const handleRemove = () => {
+    removeFlower(item.id);
+  };
 
   //generate the ID
 
@@ -64,6 +73,10 @@ const Garden = ({ item }) => {
           <strong>Age: </strong>
           {elapsedTime.days} day(s)
         </p>
+        <div className="button-1" onClick={handleRemove}>
+          Remove
+        </div>
+
         {/* <p>
           <strong>Planted Since: </strong>
           {plantingDate.split("T")[0]}

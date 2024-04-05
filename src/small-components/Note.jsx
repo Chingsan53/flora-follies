@@ -1,4 +1,3 @@
-import { MdDeleteForever } from "react-icons/md";
 import "./Note.css";
 const Note = () => {
   return (
@@ -7,13 +6,13 @@ const Note = () => {
         <div className="button-1" style={{ backgroundColor: "#EFBC9B" }}>
           ❌
         </div>
-        <h3>My note</h3>
+        <h3>My Note</h3>
         <div className="button-1" style={{ backgroundColor: "#EFBC9B" }}>
           ✔
         </div>
       </div>
       <div className="note-pad">
-        <span>My note is very interesting</span>
+        <span>Write something here...</span>
         <div className="note-footer">
           {/* <small>04/04/2024</small>
           <MdDeleteForever className="delete-icon" size="1.3em" /> */}

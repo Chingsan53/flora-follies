@@ -1,13 +1,40 @@
 import "./Garden.css";
 
 import NotesList from "./NotesList";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CareGuide from "../small-components/CareGuide";
 import Health from "../small-components/Health";
-
 import About from "../small-components/About";
+
 const Garden = ({ item }) => {
   const [activeComponent, setActiveComponent] = useState("care");
+  const [plantingDate, setPlantingDate] = useState("");
+
+  const [daysElapsed, setDaysElapsed] = useState(0);
+  const [elapsedTime, setElapsedTime] = useState({ days: 0, hours: 0 });
+
+  //generate the ID
+
+  useEffect(() => {
+    const currentDate = new Date();
+    setPlantingDate(currentDate.toISOString());
+
+    const updateDaysElapsed = () => {
+      const now = new Date();
+      const start = new Date(currentDate);
+      const differenceInTime = now - start;
+      const differentInDays = Math.floor(differenceInTime / (1000 * 3600 * 24));
+      setDaysElapsed(differentInDays);
+      const differenceInHours = Math.floor(
+        (differenceInTime % (1000 * 3600 * 24)) / (1000 * 3600)
+      );
+      setElapsedTime({ days: differentInDays, hours: differenceInHours });
+    };
+
+    updateDaysElapsed();
+    const interval = setInterval(updateDaysElapsed, 1000 * 3600 * 24);
+    return () => clearInterval(interval);
+  }, []);
 
   let ActiveComponent;
 
@@ -34,14 +61,13 @@ const Garden = ({ item }) => {
         <img className="garden-img" src={item.image} alt="small-flower" />
         <h3>{item.name}</h3>
         <p>
-          <strong>Age: </strong>2 days
+          <strong>Age: </strong>
+          {elapsedTime.days} day(s)
         </p>
-        <p>
-          <strong>Planted Since: </strong>April 1, 2024
-        </p>
-        <p>
-          <strong>Plant ID: </strong>#119919
-        </p>
+        {/* <p>
+          <strong>Planted Since: </strong>
+          {plantingDate.split("T")[0]}
+        </p> */}
       </div>
       <div className="garden-care">
         <div className="garden-care-header">

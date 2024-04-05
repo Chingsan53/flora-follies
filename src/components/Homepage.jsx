@@ -2,10 +2,13 @@ import "./Homepage.css";
 import { useFlowerData } from "./FlowerDataContext";
 import { useState } from "react";
 import Modal from "./Detail";
+
 const Homepage = () => {
   const [activeFlower, setActiveFlower] = useState(null);
   const popupStyle = activeFlower ? { display: "block" } : { display: "none" };
   const { addFlower } = useFlowerData();
+
+  //using Ref to use function from PlantTracker
 
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
@@ -829,7 +832,9 @@ const Homepage = () => {
               <div className="button-container">
                 <div
                   className="button-1"
-                  onClick={() => addFlower(activeFlower)}
+                  onClick={() => {
+                    addFlower(activeFlower);
+                  }}
                 >
                   Start planting now
                 </div>

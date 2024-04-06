@@ -1,6 +1,6 @@
 import Garden from "./Garden";
 import { useFlowerData } from "./FlowerDataContext";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const ParentGarden = () => {
   const { selectedFlowers, setSelectedFlowers } = useFlowerData();

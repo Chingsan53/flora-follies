@@ -20,9 +20,15 @@ export const FlowerDataProvider = ({ children }) => {
 
   //Function to remove the flower data
   const removeFlower = (flowerId) => {
-    setSelectedFlowers((prevFlowers) =>
-      prevFlowers.filter((flower) => flower.id !== flowerId)
-    );
+    setSelectedFlowers((prevFlowers) => {
+      const index = prevFlowers.findIndex((flower) => flower.id === flowerId);
+
+      if (index === -1) {
+        // if flower not found, return the original array
+        return prevFlowers;
+      }
+      return [...prevFlowers.slice(0, index), ...prevFlowers.slice(index + 1)];
+    });
   };
 
   useEffect(() => {

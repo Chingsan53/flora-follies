@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./navigation.css";
 
-const Navigation = () => {
+const Navigation = ({ searchTerm, onSearchChange }) => {
   return (
     <Fragment>
       <nav className="navbar">
@@ -28,6 +28,24 @@ const Navigation = () => {
               Weather
             </Link>
           </li>
+          {/* <li>
+            <input
+              type="text"
+              placeHolder="Search Flower..."
+              value={searchTerm}
+              onChange={onSearchChange}
+              className="search-bar"
+            />
+          </li> */}
+          <div className="search-box">
+            <input
+              type="text"
+              placeholder="Search Flower..."
+              className="input"
+              value={searchTerm}
+              onChange={onSearchChange}
+            />
+          </div>
         </ul>
       </nav>
       <Outlet />

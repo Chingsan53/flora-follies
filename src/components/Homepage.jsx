@@ -3,13 +3,13 @@ import { useFlowerData } from "./FlowerDataContext";
 import { useState } from "react";
 import Modal from "./Detail";
 
-const Homepage = () => {
+const Homepage = ({ searchTerm }) => {
   const [activeFlower, setActiveFlower] = useState(null);
+
   const popupStyle = activeFlower ? { display: "block" } : { display: "none" };
   const { addFlower } = useFlowerData();
 
   //using Ref to use function from PlantTracker
-
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
@@ -762,9 +762,15 @@ const Homepage = () => {
     },
   ];
 
+  //Search Function
+  //filter out flowers
+  const filteredFlowers = flowers.filter((item) =>
+    item.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="articles">
-      {flowers.map((item) => (
+      {filteredFlowers.map((item) => (
         <article key={item.id}>
           <div className="article-wrapper">
             <figure>

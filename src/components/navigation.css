@@ -8,7 +8,7 @@ body {
 
 .navbar {
   height: 60px;
-  width: 700px;
+  width: 600px;
   margin: 0 auto;
   margin-top: 40px;
   padding-left: 1em;
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar ul li {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .navbar ul li a {
@@ -68,4 +68,12 @@ body {
 .input {
   height: 40px;
   border-radius: 10px;
+  width: 90px;
+}
+
+
+@media screen and (max-width: 430px) {
+  .navbar {
+    width: 90%;
+  }
 }

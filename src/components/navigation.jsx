@@ -23,11 +23,11 @@ const Navigation = ({ searchTerm, onSearchChange }) => {
               Favorite
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="nav-link" to="/weather">
               Weather
             </Link>
-          </li>
+          </li> */}
           {/* <li>
             <input
               type="text"

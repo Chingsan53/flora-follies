@@ -23,19 +23,21 @@
   width: 90%;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 390px) {
   .modal {
-  position: fixed;
-  top: 0;
-  left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
+  padding-top: 180px;
+  padding-bottom: 50px;
   }
   .modal-content {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    max-height: 90vh;
+    max-width: 90vw;
+    overflow-y: auto;
   }
 }

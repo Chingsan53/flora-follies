@@ -23,7 +23,7 @@
   background-color: #fff;
   margin: 10px;
   padding: 2px;
-  width: 800px;
+  width: auto;
 }
 .garden-tracker {
   display: flex;
@@ -40,14 +40,6 @@
   justify-content: center;
   /* border: solid 1px; */
   padding: 2px;
-}
-
-.garden-tracker {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* border: solid 1px; */
 }
 
 .garden-img {
@@ -83,10 +75,34 @@
   border-radius: 10px;
   background-color: #f1eedc;
   padding: 5px;
-  height: 400px;
+  height: auto;
   width: 95%;
 }
 .logo {
   width: 200px;
   padding: 10px;
+}
+
+@media screen and (max-width: 430px) {
+  .garden-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    height: auto;
+  }
+  .garden-care-header {
+    width: 90%;
+  }
+  .garden-care {
+    flex-direction: column;
+    width: 99%;
+    height: auto;
+  }
+
+  .garden-care-content {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
 }

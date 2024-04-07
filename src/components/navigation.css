@@ -9,22 +9,13 @@ body {
 .navbar {
   height: 60px;
   width: 600px;
-  margin: 0 auto;
+  margin:  auto;
   margin-top: 40px;
-  padding-left: 1em;
-  padding-right: 1em;
   box-sizing: border-box;
-  display: block;
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15),
     0px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 9px;
-  position: relative;
   background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 2;
 }
 
 .navbar .logo {
@@ -42,9 +33,10 @@ body {
 .navbar ul {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  padding-top:10px;
 }
 
 .navbar ul li {
@@ -52,7 +44,8 @@ body {
 }
 
 .navbar ul li a {
-  padding: 0.25em 1em 0.25em 1em;
+  /* padding: 0.25em 1em 0.25em 1em; */
+  /* padding: 10px; */
   color: #090909;
   text-decoration: none;
   font-family: "Source Sans Pro", sans-serif;
@@ -75,5 +68,8 @@ body {
 @media screen and (max-width: 430px) {
   .navbar {
     width: 90%;
+  }
+  .navbar ul li a {
+    padding: 8px;
   }
 }

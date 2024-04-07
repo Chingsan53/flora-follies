@@ -18,29 +18,21 @@ const Navigation = ({ searchTerm, onSearchChange }) => {
               Garden
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="nav-link" to="/favorite">
               Favorite
             </Link>
-          </li>
+          </li> */}
           {/* <li>
             <Link className="nav-link" to="/weather">
               Weather
             </Link>
           </li> */}
-          {/* <li>
-            <input
-              type="text"
-              placeHolder="Search Flower..."
-              value={searchTerm}
-              onChange={onSearchChange}
-              className="search-bar"
-            />
-          </li> */}
+
           <div className="search-box">
             <input
               type="text"
-              placeholder="Search Flower..."
+              placeholder="Search..."
               className="input"
               value={searchTerm}
               onChange={onSearchChange}

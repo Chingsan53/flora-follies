@@ -1,8 +1,8 @@
 import Note from "../small-components/Note";
-const NotesList = () => {
+const NotesList = ({ flowerData }) => {
   return (
     <div>
-      <Note />
+      <Note flowerData={flowerData} />
     </div>
   );
 };

@@ -76,11 +76,6 @@ const Garden = ({ item }) => {
         <div className="button-1" onClick={handleRemove}>
           Remove
         </div>
-
-        {/* <p>
-          <strong>Planted Since: </strong>
-          {plantingDate.split("T")[0]}
-        </p> */}
       </div>
       <div className="garden-care">
         <div className="garden-care-header">
@@ -92,14 +87,14 @@ const Garden = ({ item }) => {
               Care
             </div>
           </div>
-          <div className="health">
+          {/* <div className="health">
             <div
               className="button-1"
               onClick={() => setActiveComponent("health")}
             >
               Health
             </div>
-          </div>
+          </div> */}
           <div className="note">
             <div
               className="button-1"

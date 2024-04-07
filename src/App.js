@@ -26,7 +26,7 @@ const App = () => {
             />
           }
         >
-          <Route index element={<Homepage />} />
+          <Route index element={<Homepage searchTerm={searchTerm} />} />
           <Route path="home" element={<Homepage searchTerm={searchTerm} />} />
           <Route path="garden" element={<ParentGarden />} />
           <Route path="favorite" element={<Favorite />} />

@@ -515,10 +515,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Ranunculus are relatively pest and disease resistant. However, they can be susceptible to problems like: alphids and fungal diseases.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Plant ranunculus corms (tubers) in early spring after the danger of frost has passed. The soil temperature should be consistently cool (around 50-60°F).",
+      trivia:
+        'The name "Ranunculus" comes from the Latin word "rana," which means "frog." This is thought to be in reference to the habitat where some wild ranunculus species are found, in moist areas like swamps or near ponds.',
+      funFact:
+        "Ranunculus are considered the birth flower for January, symbolizing new beginnings and radiant charm.",
+      weather:
+        "Ranunculus thrive in cool, moist climates with mild winters and cool to moderate summers. They prefer temperatures around 50-70°F and don't tolerate excessive heat well.",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant ranunculus is in early spring after the danger of frost has passed. The soil temperature should be consistently cool (around 50-60°F).</li><li>Location: Choose a location that receives full sun to part shade. Ranunculus prefer morning sun but can benefit from some afternoon shade in hot climates.</li><li>Soil: Ranunculus require well-drained soil with good moisture retention. Amend heavy clay soil with compost or sand to improve drainage. They prefer a slightly acidic to neutral pH (around 6.0-7.0).  You can test your soil pH with a home testing kit and adjust it with lime (raises pH) or sulfur (lowers pH) if necessary.</li><li>Planting Depth: Plant the ranunculus corms (claws facing upwards) 2-3 inches deep and space them 4-6 inches apart.</li><li>Watering: Water the corms well after planting and keep the soil consistently moist, especially during the germination and flowering period. Avoid overwatering, which can lead to rot.</li><li>Fertilizing: You can fertilize ranunculus once a month during the growing season with a balanced fertilizer diluted to half strength.</li></ul>",
     },
     {
       id: 19,
@@ -538,10 +544,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Peonies are relatively pest and disease resistant. However, they can be susceptible to some problems like: Botrytis and Aphids.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Enjoy the breathtaking peony blooms in late spring or early summer. The exact bloom time can vary depending on the variety and weather conditions.",
+      trivia:
+        "Peonies are native to Asia, Europe, and western North America. They have been cultivated in China for over 2,000 years and are considered a symbol of wealth, honor, and beauty.",
+      funFact:
+        "The peony is the 12th wedding anniversary flower, symbolizing happy marriage and a prosperous life together.",
+      weather:
+        "Peonies prefer cool, temperate climates with well-defined seasons. They thrive in areas with mild winters and cool to moderate summers. Peonies require a period of cold weather to initiate flower bud development.",
+      howToPlant:
+        '<ul><li>Planting Time: The best time to plant peonies is in fall (ideally 6-8 weeks before the ground freezes). Planting at this time allows the roots to establish before winter.</li><li>Location: Choose a location that receives full sun to part shade. Peonies need at least 6 hours of sunlight daily to flower optimally.</li><li>Soil: Peonies require well-drained soil with good air circulation. Amend heavy clay soil with compost or other organic matter to improve drainage. They prefer a slightly acidic to neutral pH (around 6.0-7.0). You can test your soil pH with a home testing kit and adjust it with lime (raises pH) or sulfur (lowers pH) if necessary.</li><li>Planting Depth: Dig a hole large enough to accommodate the peony root system. Plant the peony roots with the "eyes" (buds) facing upwards, 1-2 inches below the soil surface. Avoid planting them too deep, which can hinder flowering.</li><li>Watering: Water the peonies well after planting and keep the soil consistently moist, especially during the first year as they establish. Water deeply during dry periods throughout the growing season.</li><li>Fertilizing: You can fertilize peonies in early spring with a balanced fertilizer diluted to half strength. Avoid over-fertilizing as it can reduce flowering.</li></ul>',
     },
     {
       id: 20,
@@ -561,10 +573,14 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Alliums are generally pest and disease resistant. However, they can be susceptible to some problems like: Bulb rot and Alliums attract few pests.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Plant allium bulbs in fall for late spring or early summer blooms. Enjoy the variety of shapes, sizes, and colors of allium flowers as they add interest to your garden beds and borders.",
+      trivia:
+        'The name "Allium" comes from the Latin word "alligare," which means "to bind or to tie together." This is thought to be a reference to the way that the individual florets cluster together in a spherical head in many allium varieties.',
+      funFact:
+        "Some allium varieties, like chives and garlic chives, are not only ornamental but also edible! The flowers of some varieties are even enjoyed pickled or candied.",
+      weather:
+        "Alliums generally prefer cool to moderate climates with well-defined seasons. They are tolerant of a wide range of temperatures but prefer full sun for optimal growth and flowering.",
     },
     {
       id: 21,
@@ -584,10 +600,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Forget-me-nots are relatively pest and disease resistant. However, they can be susceptible to some problems like: Snails and Powdery mildew.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Enjoy the vibrant blue blooms of forget-me-nots in late spring or early summer (typically April-May in many regions). The exact bloom time can vary depending on location and weather conditions.",
+      trivia:
+        "There are over 50 species of forget-me-nots, with flower colors ranging from the classic blue to pink, white, and even yellow. Some varieties are evergreen, while others are biennial or short-lived perennials.",
+      funFact:
+        "Forget-me-nots are the national flower of Germany and Romania. They are also associated with memory and remembrance on Mother's Day in some countries.",
+      weather:
+        "Forget-me-nots prefer cool, moist climates with mild winters and cool to moderate summers. They thrive in areas with partial shade to full sun and consistent moisture.",
+      howToPlant:
+        "<ul><li>Planting Time: You can sow forget-me-not seeds directly outdoors in late summer or early fall for blooms the following spring. Alternatively, sow seeds indoors in containers in late summer/early fall and transplant seedlings outdoors in spring.</li><li>Location: Choose a location that receives partial shade to full sun. Forget-me-nots will tolerate full sun as long as the soil is kept consistently moist.</li><li>Soil: Forget-me-nots prefer moist, well-drained soil rich in organic matter. Amend heavy clay soil with compost or other organic matter to improve drainage and moisture retention.</li><li>Planting Depth: Scatter forget-me-not seeds lightly on the surface of the soil and gently press them in. You can also sow seeds 1/4 inch deep in rows spaced 6-8 inches apart.</li><li>Watering: Keep the soil consistently moist, especially during germination and establishment. Water regularly throughout the growing season, especially during dry periods.</li><li>Deadheading: Deadheading spent flowers regularly can encourage continued blooming throughout the season.</li></ul>",
     },
     {
       id: 22,
@@ -607,10 +629,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Columbines are relatively pest and disease resistant. However, they can be susceptible to some problems like: Alpids and fungal diseases.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Enjoy the delightful blooms of columbine in late spring and early summer (typically May-June in many regions). The exact bloom time can vary depending on location, variety, and weather conditions.",
+      trivia:
+        'The name "Columbine" comes from the Latin word "columba," meaning "dove." This is thought to be a reference to the shape of the flower\'s hollow petals, which resemble the head of a dove.',
+      funFact:
+        "Columbine are known to attract hummingbirds with their nectar-rich flowers. They are also a favorite among butterfly gardeners.",
+      weather:
+        "Columbine prefer cool, moist climates with mild to cool summers. They thrive in areas with partial shade to full sun, with some afternoon shade beneficial in hot climates.  They appreciate consistent moisture throughout the growing season.",
+      howToPlant:
+        "CAUTION: These information on how to plant this flower is not included since it is related to Columbine High School Massacre",
     },
     {
       id: 23,
@@ -630,10 +658,15 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Camellias are relatively pest and disease resistant. However, watch for aphids, lace bugs, and fungal diseases like powdery mildew.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Fall (depending on variety): Enjoy the breathtaking blooms of fall-blooming camellia varieties from late fall to winter (typically November-February in many regions). Protect flower buds from harsh winter winds or freezes if necessary.",
+      trivia:
+        "Camellias are native to East Asia, but they have been cultivated in China and Japan for centuries. They are considered symbols of longevity, elegance, and perfection in some cultures.",
+      funFact: "The camellia flower is the official state flower of Alabama.",
+      weather:
+        "Camellias prefer warm, temperate climates with mild winters and cool to moderate summers. They thrive in areas with well-drained, acidic soil and consistent moisture.",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant camellias is in fall or early spring, when the temperatures are cool and the soil is moist.</li><li>Location: Choose a location that receives dappled sunlight or morning sun with some afternoon shade, especially in hot climates. Camellias need protection from strong winds.</li><li>Soil: Camellias require well-drained, acidic soil rich in organic matter. Amend heavy clay soil with compost or other organic matter to improve drainage and lower the pH. You can test your soil pH with a home testing kit and adjust it with sulfur if necessary to achieve a pH of around 5.5 to 6.5.</li><li>Planting Depth: Dig a hole large enough to accommodate the root ball of the camellia. Plant the shrub with the root ball slightly above the surrounding soil level. Avoid burying the stem.</li><li>Watering: Water the camellia thoroughly after planting and keep the soil consistently moist, especially during the first year as it establishes. Water deeply during dry periods throughout the growing season.</li><li>Mulching: Apply a layer of mulch around the base of the camellia plant to help retain moisture, regulate soil temperature, and suppress weeds.</li><li>Fertilizing: You can fertilize camellias in early spring with a fertilizer formulated for acid-loving plants. Avoid over-fertilizing as it can harm the plant.</li></ul>",
     },
     {
       id: 24,
@@ -653,10 +686,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Bleeding hearts are relatively pest and disease resistant. However, they can be susceptible to some problems like: Botrytis and snails.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Enjoy the breathtaking blooms of bleeding hearts in all their glory. Deadheading spent flowers can encourage continued blooming throughout the season.",
+      trivia:
+        'The name "bleeding heart" is a fitting description for the flower\'s unique heart-shaped appearance, resembling a drop of blood. Some cultures associate the flower with love and passion.',
+      funFact:
+        "Bleeding hearts are not only beautiful but also provide a nectar source for hummingbirds and butterflies, attracting them to your garden.",
+      weather:
+        "Bleeding hearts prefer cool, moist climates with mild winters and cool to moderate summers. They struggle in excessively hot and humid environments.  They appreciate consistent moisture throughout the growing season and benefit from some afternoon shade in hot climates.",
+      howToPlant:
+        '<ul><li>Planting Time: The best time to plant bleeding hearts is in fall, ideally 6-8 weeks before the ground freezes. Planting at this time allows the roots to establish before winter.</li><li>Location: Choose a location that receives partial shade to full sun in the morning, with some afternoon shade in hot climates.  They need protection from strong winds.</li><li>Soil: Bleeding hearts require well-drained soil rich in organic matter. Amend heavy clay soil with compost or other organic matter to improve drainage.</li><li>Planting Depth: Plant the bleeding heart tubers (corms) with the "eyes" (buds) facing upwards, 2-3 inches deep and spaced 4-6 inches apart.</li><li>Watering: Water the tubers well after planting and keep the soil consistently moist, especially during the first year as they establish.</li></ul>',
     },
     {
       id: 25,
@@ -676,10 +715,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Relatively pest and disease resistant. Watch for aphids and fungal diseases like powdery mildew. Use organic controls like insecticidal soap or neem oil if necessary.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Sow poppy seeds directly outdoors in late winter or early spring in regions with mild winters. Alternatively, sow seeds indoors 6-8 weeks before the last frost and transplant seedlings outdoors in spring after the danger of frost has passed.",
+      trivia:
+        "The poppy flower is a symbol of remembrance on Armistice Day, observed on November 11th in some countries, to honor those who served and died in war.",
+      funFact:
+        "Poppies are not only beautiful but also attract beneficial insects to your garden, such as ladybugs and hoverflies, which can help control other insects.",
+      weather:
+        "Poppies prefer cool to moderate climates with well-drained soil. They thrive in full sun locations and appreciate moderate watering throughout the growing season.",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant poppy seeds depends on your climate. In regions with mild winters, you can sow seeds in late winter or early spring. In colder climates, sow seeds indoors 6-8 weeks before the last frost and transplant seedlings outdoors in spring.</li><li>Location: Choose a location that receives full sun. Poppies will not flower well in shady locations.</li><li>Soil: Poppies prefer well-drained soil on the drier side. Amend heavy clay soil with sand or other organic matter to improve drainage. They are adaptable to a wide range of soil pH levels but generally tolerate slightly alkaline soil (around 7.0-7.8).</li><li>Planting Depth: Scatter poppy seeds thinly over the prepared soil surface and press them gently into the soil. You can also sow seeds 1/4 inch deep in rows spaced 12-18 inches apart.</li><li>Watering: Water the seeds lightly after sowing and keep the soil moist until germination. Once established, poppies are fairly drought-tolerant, but they will benefit from occasional watering during dry periods.</li><li>Thinning: Once the poppy seedlings emerge and have a few sets of leaves, you may need to thin them to allow for proper spacing. Thin poppy seedlings to 6-12 inches apart.</li></ul>",
     },
     {
       id: 26,
@@ -699,10 +744,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Foxgloves are relatively pest and disease resistant. However, they can be susceptible to some problems like: Rust and snails.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Plant foxglove seeds indoors 6-8 weeks before the last frost. Alternatively, you can sow seeds directly outdoors in fall for blooms the following year.",
+      trivia:
+        'The name "Foxglove" is thought to originate from the resemblance of the inflated flower buds to the finger stalls (gloves) worn by fox hunters.',
+      funFact:
+        "Foxgloves are not only beautiful but also a source of the cardiac glycoside digitoxin, which is used in some medications for heart conditions. However, due to the toxicity of the plant, self-medication is strongly discouraged.",
+      weather:
+        "Foxgloves prefer cool to moderate climates with well-drained soil. They thrive in areas with full sun to partial shade and benefit from consistent moisture throughout the growing season.",
+      howToPlant:
+        "<ul><li>Planting Time: You can plant foxglove seeds indoors 6-8 weeks before the last frost for transplanting outdoors in spring. Alternatively, sow seeds directly outdoors in fall for blooms the following year.</li><li>Location: Choose a location that receives full sun to partial shade. Foxgloves may need some afternoon shade in hot climates.</li><li><b>Soil:** Foxgloves prefer well-drained soil rich in organic matter. Amend heavy clay soil with compost or other organic matter to improve drainage.</li><li>Planting Depth: Sow foxglove seeds thinly on the surface of moist soil and press them gently into the soil. You can also sow seeds 1/4 inch deep in rows spaced 12-18 inches apart.</li><li>Watering: Water the seeds regularly to keep the soil moist, especially during germination. Once established, foxgloves are moderately drought-tolerant but will benefit from occasional watering during dry periods.</li><li>Thinning: Once the foxglove seedlings emerge and have a few sets of leaves, you may need to thin them to allow for proper spacing. Thin foxglove seedlings to 12-18 inches apart.</li></ul>",
     },
     {
       id: 27,
@@ -722,10 +773,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Hellebores are relatively pest and disease resistant. However, they can be susceptible to some problems like: Hellebore leaf spot and snails.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Hellebores are herbaceous or evergreen perennials with attractive, lobed foliage. They typically grow 12-18 inches tall and 18-24 inches wide.",
+      trivia:
+        "Hellebores are also known as Lenten Roses because they traditionally bloom around the time of Lent.",
+      funFact:
+        "Hellebores are not only beautiful but also quite deer-resistant, making them a good choice for gardens prone to deer browsing.",
+      weather:
+        "Hellebores prefer cool, moist climates with well-drained soil. They thrive in partial shade to full shade and appreciate consistent moisture throughout the growing season, especially during spring.",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant hellebores is in fall, ideally 6-8 weeks before the ground freezes. Planting at this time allows the roots to establish before winter.</li><li>Location: Choose a location that receives partial shade to full shade. Hellebores will not flower well in full sun locations.</li><li><b>Soil:** Hellebores prefer well-drained soil rich in organic matter. Amend heavy clay soil with compost or other organic matter to improve drainage.</li><li>Planting Depth: Plant hellebore rhizomes carefully, positioning the crown (where the roots and stems meet) just slightly below the soil surface.</li><li>Watering: Water the newly planted hellebores thoroughly and keep the soil moist, especially during the first year as they establish.</li></ul>",
     },
     {
       id: 28,
@@ -745,10 +802,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Snapdragons are generally pest and disease resistant. However, they can be susceptible to some problems like: Aphids and Botrytis.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "In mild climates, sow snapdragon seeds directly outdoors in early spring. Alternatively, you can start seeds indoors 6-8 weeks before the last frost and transplant seedlings outdoors after the danger of frost has passed.",
+      trivia:
+        "The name \"snapdragon\" comes from the unique way the flower's lower lip opens and closes, resembling a dragon's snapping jaws.",
+      funFact:
+        "Snapdragons are not only beautiful but also attract butterflies and hummingbirds to your garden, adding to the visual interest and supporting pollination.",
+      weather:
+        "Snapdragons prefer cool to moderate climates with well-drained soil. They thrive in full sun locations and appreciate regular watering throughout the growing season, especially during hot weather",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant snapdragon seeds depends on your climate. In mild climates, you can sow seeds directly outdoors in early spring or fall. In colder climates, start seeds indoors 6-8 weeks before the last frost and transplant seedlings outdoors after the danger of frost has passed.</li><li>Location: Choose a location that receives full sun. Snapdragons will not flower well in shady locations.</li><li><b>Soil:** Snapdragons prefer well-drained soil rich in organic matter. Amend heavy clay soil with compost or other organic matter to improve drainage.</li><li>Planting Depth: Sow snapdragon seeds thinly over the prepared soil surface and press them gently into the soil. You can also sow seeds 1/4 inch deep in rows spaced 8-12 inches apart.</li><li>Watering: Water the seeds regularly to keep the soil moist, especially during germination. Once established, snapdragons will benefit from regular watering, especially during dry periods.</li><li>Thinning: Once the snapdragon seedlings emerge and have a few sets of leaves, you may need to thin them to allow for proper spacing. Thin snapdragon seedlings to 6-8 inches apart.</li></ul>",
     },
     {
       id: 29,
@@ -768,10 +831,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Wallflowers are relatively pest and disease resistant. However, they can be susceptible to some problems like: flea beetles and powdery mildew.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "In mild climates, sow wallflower seeds directly outdoors in early spring after the danger of frost has passed. Alternatively, you can start seeds indoors 6-8 weeks before the last frost and transplant seedlings outdoors after hardening them off.",
+      trivia:
+        'The name "wallflower" is not related to any association with walls. It is thought to be derived from an old French word "mignoette" which means "dainty" or "delicate," referencing the small, fragrant flowers.',
+      funFact:
+        "Wallflowers are not only beautiful and fragrant but also attract beneficial insects like bees and butterflies to your garden, aiding in pollination.",
+      weather:
+        "Wallflowers prefer cool to moderate climates with well-drained soil. They thrive in full sun to partial shade locations and appreciate consistent moisture throughout the growing season, especially during cool spring weather.",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant wallflower seeds depends on your climate and whether you want them to bloom in the spring or fall. In mild climates with cool summers, you can sow seeds directly outdoors in early spring or late summer/early fall. In colder climates, start seeds indoors 6-8 weeks before the last frost and transplant seedlings outdoors after hardening them off.</li><li>Location: Choose a location that receives full sun to partial shade. Wallflowers may require some afternoon shade in hot climates.</li><li><b>Soil:** Wallflowers prefer well-drained soil with moderate fertility. Amend heavy clay soil with compost or other organic matter to improve drainage.</li><li>Planting Depth: Sow wallflower seeds thinly over the prepared soil surface and press them gently into the soil. You can also sow seeds 1/4 inch deep in rows spaced 8-12 inches apart.</li><li>Watering: Water the seeds regularly to keep the soil moist, especially during germination. Once established, wallflowers will benefit from regular watering, especially during dry periods. Avoid overwatering, which can lead to root rot.</li><li>Thinning: Once the wallflower seedlings emerge and have a few sets of leaves, you may need to thin them to allow for proper spacing. Thin wallflower seedlings to 6-8 inches apart.</li></ul>",
     },
     {
       id: 30,
@@ -791,10 +860,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Lungworts are relatively pest and disease resistant. However, they can be susceptible to some problems like: Botrytis and snails.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Enjoy the beautiful blooms of lungwort in late winter to early summer. Deadheading spent flowers can encourage continued blooming.  You can also divide lungwort plants in early spring if desired.",
+      trivia:
+        'The name "lungwort" is derived from an old herbal belief that the spotted leaves resembled human lungs, and the plant was thought to have medicinal properties for respiratory ailments. However, there is no scientific evidence to support this claim.',
+      funFact:
+        "Lungworts are not only beautiful but also provide a nectar source for hummingbirds and butterflies, attracting them to your shade garden.",
+      weather:
+        "Lungworts prefer cool, moist climates with mild winters and cool to moderate summers. They struggle in excessively hot and humid environments. They appreciate consistent moisture throughout the growing season and benefit from some afternoon shade in hot climates.",
+      howToPlant:
+        '<ul><li>Planting Time: The best time to plant lungwort is in fall, ideally 6-8 weeks before the ground freezes. Planting at this time allows the roots to establish before winter.</li><li>Location: Choose a location that receives partial shade to full sun in the morning, with some afternoon shade in hot climates.  They need protection from strong winds.</li><li><b>Soil:** Lungworts require well-drained soil rich in organic matter. Amend heavy clay soil with compost or other organic matter to improve drainage.</li><li>Planting Depth: Plant the lungwort tubers (corms) with the "eyes" (buds) facing upwards, 2-3 inches deep and spaced 4-6 inches apart.</li><li>Watering: Water the tubers well after planting and keep the soil consistently moist, especially during the first year as they establish.</li></ul>',
     },
   ];
 

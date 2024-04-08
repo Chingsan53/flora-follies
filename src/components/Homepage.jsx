@@ -320,10 +320,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Lilacs are relatively pest and disease resistant. However, they can be susceptible to some problems like: diseases and insects.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Prune lilacs soon after flowering is finished (late spring or early summer). This encourages bushier growth and more blooms for the following spring. Avoid pruning in fall or winter as this can damage new growth.",
+      trivia:
+        "Lilacs are native to Europe and Asia but are widely cultivated around the world. There are over 1,000 named varieties of lilacs, offering a wide range of flower colors, sizes, and bloom times.",
+      funFact:
+        "Lilacs are considered a symbol of spring, with their fragrant blooms signifying new beginnings and the arrival of warmer weather. Lilacs are also associated with emotions of love, happiness, and innocence.",
+      weather:
+        "Lilacs prefer cool to moderate climates. They require a period of cold weather (chilling hours) in winter to initiate flower bud development. However, they are generally adaptable to a range of weather conditions once established.",
+      howToPlant:
+        "<ul><li>Planting Time: Fall (ideally 6-8 weeks before the ground freezes) or very early spring is the best time to plant lilacs.</li><li>Location: Choose a location with full sun to part shade (at least 6 hours of daily sunlight) and well-drained soil with good air circulation.</li> <li>Soil: Lilacs prefer fertile, well-drained soil with a neutral to slightly alkaline pH (around 6.5-7.5). Amend heavy clay soil with compost or sand for better drainage.</li><li>Planting Depth: Dig a hole large enough for the root ball and plant the lilac so the root crown is slightly buried (1-2 inches below the soil surface). Planting too deep can prevent flowering.</li><li>Watering: Water thoroughly after planting and regularly during the first year. Established lilacs are moderately drought-tolerant but benefit from deep watering during dry periods, especially when forming buds and flowering.</li><li>Fertilizing: Fertilize once a year in early spring with a balanced fertilizer for flowering shrubs. Avoid over-fertilizing.</li></ul>",
     },
     {
       id: 12,
@@ -343,10 +349,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Cherry blossoms can be susceptible to some problems like: insects and fungal diseases.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Cherry blossoms bloom in early spring, typically between March and May, depending on the variety and location. Exact bloom times can vary from year to year.",
+      trivia:
+        "Cherry blossoms are native to East Asia, but they are now cultivated and celebrated around the world.",
+      funFact:
+        "The delicate cherry blossoms only last for a short period, typically a week or two, making their fleeting beauty even more appreciated.",
+      weather:
+        "Cherry blossom trees prefer cool, temperate climates with four distinct seasons. They require a period of cold weather in winter (chilling hours) to initiate flower bud development.",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant cherry blossom trees is in fall or early spring when the soil is workable.</li><li>Location: Choose a location that receives full sun to part shade. Cherry blossoms need at least 6 hours of sunlight daily to flower abundantly.</li><li>Soil: Well-drained, fertile soil with a slightly acidic to neutral pH (around 6.0-7.0) is ideal for cherry blossoms. Amend heavy clay soil with compost or other organic matter to improve drainage.</li><li>Planting Depth: Dig a hole large enough to accommodate the root ball of your cherry blossom tree. Plant the tree so that the root crown (where the stems meet the roots) is at soil level.</li><li>Watering: Water thoroughly after planting and continue to water regularly, especially during the first year. Once established, cherry blossoms are moderately drought tolerant but may benefit from deep watering during dry periods.</li><li>Fertilizing: You can fertilize cherry blossom trees once a year in early spring with a balanced fertilizer formulated for flowering trees. Avoid over-fertilizing as this can encourage excessive foliage growth at the expense of flowers.</li></ul>",
     },
     {
       id: 13,
@@ -366,10 +378,15 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Magnolias are relatively pest and disease resistant. However, they can be susceptible to some problems like: diseases and insects.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Prune forsythia after flowering to encourage bushier growth and more blooms next spring. Remove dead or diseased branches any time. Apply a layer of mulch around the base of the plant in fall to retain moisture and protect roots during winter.",
+      trivia:
+        "Forsythia is named after William Forsyth, a Scottish botanist who worked in London in the late 18th and early 19th centuries.",
+      funFact:
+        "The vibrant yellow flowers of forsythia are believed to symbolize hope, renewal, and anticipation of spring.",
+      weather:
+        "Adapts to a range of climates but prefers cooler spring weather for optimal flowering. Tolerates winter cold reasonably well.",
+      howToPlant: "",
     },
     {
       id: 14,
@@ -389,10 +406,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Azaleas are relatively pest and disease resistant. However, watch for aphids, lace bugs, and fungal diseases like powdery mildew. Use organic controls like insecticidal soap or neem oil if necessary.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Azaleas have shallow roots and require consistent moisture, especially during hot or dry weather. Avoid letting the soil dry out completely. Water deeply to soak the root zone.",
+      trivia:
+        "Azaleas are members of the Rhododendron genus and come in a wide variety of evergreen and deciduous types.",
+      funFact:
+        "Azaleas are known for their delicate and papery flowers, which often come in clusters, creating a stunning visual display.",
+      weather:
+        "Azaleas prefer cool, moist climates with well-defined seasons. They thrive in areas with mild winters and cool to moderate summers.",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant azaleas is in fall (ideally 6-8 weeks before the ground freezes) or early spring when the soil is cool and moist.</li><li>Location: Choose a location that receives dappled sunlight or part shade. Azaleas can tolerate some morning sun but generally prefer protection from the harsh afternoon sun, especially in hot climates.</li><li>Soil: Azaleas require moist, well-drained soil with acidic properties (pH around 4.5 to 6.0). If your soil is not acidic, you can amend it with peat moss, composted pine needles, or other organic matter to lower the pH.</li><li>Planting Depth: Dig a hole large enough to accommodate the root ball of your azalea. Plant the azalea so that the root crown (where the stems meet the roots) is slightly above the soil surface.</li><li>Watering: Water thoroughly after planting and continue to water regularly, especially during the first year. Established azaleas need consistent moisture, so water deeply during dry periods.</li><li>Fertilizing: You can fertilize azaleas in early spring with a fertilizer formulated for acid-loving plants. Avoid over-fertilizing as it can harm the plant.</li></ul>",
     },
     {
       id: 15,
@@ -412,10 +435,16 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Rhododendrons are relatively pest and disease resistant. However, watch for aphids, lace bugs, and fungal diseases like powdery mildew. Use organic controls like insecticidal soap or neem oil if necessary.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
-      weather: "",
+      seasonalTips:
+        "Rhododendrons require consistent moisture, especially during hot or dry weather. Water deeply to soak the root zone, avoiding soggy soil.",
+      trivia:
+        "Rhododendrons are a large genus of flowering plants with over 1,000 species.",
+      funFact:
+        "Rhododendrons are the national flower of Nepal and the state flower of Washington.",
+      weather:
+        "Rhododendrons prefer cool, moist climates with well-defined seasons. They thrive in areas with mild winters and cool to moderate summers.",
+      howToPlant:
+        "<ul><li>Planting Time: The best time to plant rhododendrons is in fall (ideally 6-8 weeks before the ground freezes) or early spring when the soil is cool and moist.</li><li>Location: Choose a location that receives dappled sunlight or part shade. Rhododendrons can tolerate some morning sun but generally prefer protection from the harsh afternoon sun, especially in hot climates.</li><li>Soil: Rhododendrons require moist, well-drained soil with acidic properties (pH around 4.5 to 6.0). If your soil is not acidic, you can amend it with peat moss, composted pine needles, or other organic matter to lower the pH.</li><li>Planting Depth: Dig a hole large enough to accommodate the root ball of your rhododendron. Plant the rhododendron so that the root crown (where the stems meet the roots) is slightly above the soil surface.</li><li>Watering: Water thoroughly after planting and continue to water regularly, especially during the first year. Established rhododendrons need consistent moisture, so water deeply during dry periods.</li><li>Fertilizing: You can fertilize rhododendrons in early spring with a fertilizer formulated for acid-loving plants. Avoid over-fertilizing as it can harm the plant.</li></ul>",
     },
     {
       id: 16,
@@ -434,10 +463,12 @@ const Homepage = ({ searchTerm }) => {
           "In colder climates, a light layer of mulch around the base of the plant in fall can protect the roots from freezing temperatures. Remove mulch in late winter/early spring.",
         PestsDiseases: "N/A",
       },
-      seasonalTips: "",
+      seasonalTips:
+        "Choose a location that receives full sun to part shade. Anemones can tolerate some shade, but full sun exposure will encourage more blooms.",
       trivia: "",
       funFact: "",
       weather: "",
+      howToPlant: "",
     },
     {
       id: 17,
@@ -456,10 +487,15 @@ const Homepage = ({ searchTerm }) => {
         PestsDiseases:
           "Bluebells are relatively pest and disease resistant. However, they can be susceptible to some problems like: bulb rot and slugs and snails.",
       },
-      seasonalTips: "",
-      trivia: "",
-      funFact: "",
+      seasonalTips:
+        "Enjoy the breathtaking bluebell displays in woodlands during late spring (typically April-May). The exact bloom time can vary depending on location and weather conditions.",
+      trivia:
+        'The scientific name for the common bluebell is Hyacinthoides non-scripta. The "non-scripta" part doesn\'t actually have a clear meaning when separated from its historical association with the Hyacinthus genus.',
+      funFact:
+        "The vibrant blue color of bluebells is caused by pigments called anthocyanins. These pigments also contribute to the blue color of blueberries and other fruits.",
       weather: "",
+      howToPlant:
+        "<li>Planting Time: The best time to plant bluebells is in fall (ideally 6-8 weeks before the ground freezes) or very early spring when the soil is cool and moist.</li><li>Location: Choose a location that receives dappled sunlight or part shade, similar to a woodland understory.</li><li>Soil: Bluebells prefer slightly acidic, well-drained soil rich in organic matter. Amend your soil with compost or leaf mold to improve drainage and fertility.</li><li>Planting Depth: Plant the bluebell bulbs 3-4 inches deep and space them about 4-6 inches apart.</li><li>Watering: Water the bulbs well after planting and keep the soil moist, especially during the first year. Once established, bluebells are fairly drought tolerant, but they may benefit from occasional deep watering during dry periods.</li><li>Patience: Bluebells may take a few years to establish and flower abundantly. Don't be discouraged if you don't see blooms immediately.</li><li>Naturalize: Let the bluebell foliage die back naturally each year. This allows the plants to replenish their energy stores for the following season.</li></ul>",
     },
     {
       id: 18,

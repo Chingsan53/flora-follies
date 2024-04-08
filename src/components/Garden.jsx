@@ -103,14 +103,14 @@ const Garden = ({ item }) => {
               Note
             </div>
           </div>
-          <div className="about">
+          {/* <div className="about">
             <div
               className="button-1"
               onClick={() => setActiveComponent("about")}
             >
               About
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="garden-care-content">
           <ActiveComponent flowerData={item} />

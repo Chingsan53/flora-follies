@@ -963,7 +963,7 @@ const Homepage = ({ searchTerm }) => {
                 </div> */}
                 <div
                   className="button-1"
-                  onClick={() => openInNewTab(activeFlower.link)}
+                  onClick={() => openInNewTab("https://www.bulkseedstore.com/")}
                 >
                   Buy Seeds
                 </div>

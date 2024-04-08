@@ -41,7 +41,7 @@ const Note = ({ flowerData }) => {
           style={{ backgroundColor: "#EFBC9B" }}
           onClick={handleCancel}
         >
-          ❌
+          Edit
         </div>
         <h3>My Note</h3>
         <div
@@ -49,7 +49,7 @@ const Note = ({ flowerData }) => {
           style={{ backgroundColor: "#EFBC9B" }}
           onClick={handleSave}
         >
-          ✔
+          Submit
         </div>
       </div>
       <div className="note-pad">
